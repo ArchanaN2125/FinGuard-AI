@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinGuard AI | Risk Intel Dashboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header class="glass">
+            <div class="brand">FinGuard AI</div>
+            <div class="status-badge">
+                <div class="status-dot"></div>
+                <span id="backend-status">SYSTEM ONLINE</span>
+            </div>
+        </header>
+
+        <main>
+            <div class="dashboard-grid">
+                <section class="stats-row">
+                    <div class="stat-card glass">
+                        <span class="stat-label">System Risk Status</span>
+                        <span class="stat-value" id="global-risk-level">STABLE</span>
+                    </div>
+                    <div class="stat-card glass">
+                        <span class="stat-label">Active Alerts</span>
+                        <span class="stat-value" id="alert-count">0</span>
+                    </div>
+                    <div class="stat-card glass" id="health-card">
+                        <span class="stat-label">Avg Health Index</span>
+                        <span class="stat-value" id="avg-health">---</span>
+                    </div>
+                </section>
+
+                <section class="feed-panel glass">
+                    <div class="panel-header">
+                        <h2>Live Intelligence Feed</h2>
+                        <span class="txn-meta" id="stream-info">Last update: Just now</span>
+                    </div>
+                    <div class="transaction-list" id="txn-feed">
+                        <div class="empty-state">
+                            <p>Awaiting live transaction data...</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="side-panels">
+                <section class="detail-panel glass" id="ai-insight-panel">
+                    <div class="detail-header">
+                        <h3>AI Risk Analyst Insight</h3>
+                        <p class="txn-meta" id="insight-txn-id">Select a transaction for deep analysis</p>
+                    </div>
+                    <div id="insight-content">
+                        <div class="explanation-text" id="explanation-box">
+                            The Risk Analyst AI provides real-time, evidence-based explanations for every flagged event in the feed.
+                        </div>
+                        <ul class="evidence-list" id="evidence-box">
+                            <!-- Evidence items populate here -->
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="detail-panel glass" id="user-context-panel">
+                    <div class="detail-header">
+                        <h3>Behavioral Context</h3>
+                    </div>
+                    <div id="user-stats">
+                        <div class="stat-label" style="margin-bottom: 0.5rem;">Primary User</div>
+                        <div class="merchant-name" id="current-user-id">---</div>
+                        <br>
+                        <div class="stat-label" style="margin-bottom: 0.5rem;">Identified Risk Categories</div>
+                        <div id="risk-category-tags" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                            <!-- Tags populate here -->
+                        </div>
+                    </div>
+                </section>
+            </aside>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
