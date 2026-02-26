@@ -1,0 +1,9 @@
+pathway==0.post1
+fastapi
+uvicorn
+streamlit
+pandas
+requests
+flask
+pydantic
+python-dotenv
