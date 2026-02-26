@@ -283,13 +283,19 @@ with tab_investigate:
         for chat in reversed(st.session_state.chat_history):
             with st.expander(f"Q: {chat['q']}", expanded=True):
                 st.info(chat['a'])
+                
+        # 4. Experimental: What-If Simulation
+        st.markdown("---")
+        with st.expander("🧪 What-If Prediction", expanded=True):
+            counterfactual = snap.get('counterfactual')
+            if counterfactual:
+                st.info(f"👉 **Data-Driven Insight**: {counterfactual}")
+                st.caption("This prediction uses your historical spending patterns to calculate how risk would change if transaction parameters were different.")
+            else:
+                st.write("Counterfactual analysis not available for this snapshot.")
     else:
         st.info("💡 Select a transaction above to create an immutable analysis snapshot.")
 
-# Experimental: What-If Simulation
-with st.expander("🧪 What-If Prediction"):
-    # (Simplified simulation logic omitted for brevity as per instructions to focus on stability)
-    st.write("Feature stable in API. See api_main.py /simulate endpoint.")
 
 # 5. RERUN LOOP (Only if not paused)
 if not st.session_state.is_paused:
