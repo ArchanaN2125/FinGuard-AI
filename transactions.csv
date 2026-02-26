@@ -3444,3 +3444,56 @@ df099956-1ea0-4c81-91a0-807e30a2e155,U3,3762.89,Amazon,shopping,"New York, NY",2
 5431e7d2-1a22-4627-bc14-262b9171fe10,U3,218.93,Netflix,entertainment,"Paris, FR",2026-02-27T04:46:36
 ee383405-0f40-4f4b-8989-db041d0efa65,U3,376.27,Uber,travel,"New York, NY",2026-02-27T04:46:39
 60e4bb1e-afdd-4c30-a032-718870683e89,U3,3769.53,MakeMyTrip,travel,"London, UK",2026-02-27T04:46:43
+71d23d68-6580-416f-bfd3-cecb9dd80bee,U1,763.61,Big Basket,groceries,"Los Angeles, CA",2026-02-27T04:46:46
+8c2bc263-35df-4558-bd84-7d3c3d30f5ea,U2,556.05,Electricity Board,utilities,"London, UK",2026-02-27T04:46:49
+6a954b71-da92-4e69-8ae7-1417d70aee32,U3,3451.34,Airtel,utilities,"Tokyo, JP",2026-02-27T04:46:52
+4e7912da-14eb-4188-83f4-17c7f23d98eb,U2,368.19,Nike,shopping,"New York, NY",2026-02-27T04:46:55
+71c21506-108e-42f8-a567-0b5a07eaddf1,U3,153.07,Nike,shopping,"Tokyo, JP",2026-02-27T04:46:58
+81d32de5-dab2-4c9c-8962-e9a85e4eb4ae,U1,3926.24,PVR Cinemas,entertainment,"London, UK",2026-02-27T04:47:01
+b3ab6a56-548a-4f88-a16f-166386668416,U3,6648.32,Binance,crypto,"New York, NY",2026-02-27T04:47:04
+cc385863-3517-4a7b-8240-ebcd3f0b8db7,U3,645.05,Amazon,shopping,"New York, NY",2026-02-27T04:47:07
+a715e812-6e1a-474c-bcd2-aa1c6120902f,U1,341.59,Electricity Board,utilities,"Paris, FR",2026-02-27T04:47:10
+e603b88f-c95e-4ea6-8406-d67d15f0244f,U1,297.5,Electricity Board,utilities,"New York, NY",2026-02-27T04:47:14
+0a3a1afe-f854-4de6-99c4-1979b9414d34,U3,5055.57,Netflix,entertainment,"New York, NY",2026-02-27T04:47:17
+f5012134-8a88-4f05-9157-17dc7e729e33,U3,300.27,MakeMyTrip,travel,"Paris, FR",2026-02-27T04:47:20
+9180f26c-f69b-474a-adf3-c8c15f0c797d,U1,42.83,MakeMyTrip,travel,"New York, NY",2026-02-27T04:47:23
+0cb7e69a-1ade-4cd7-a4b0-55fd55b9a2c9,U3,50.56,Amazon,shopping,"London, UK",2026-02-27T04:47:26
+2a8f7ac2-b574-4f8e-9895-7b77e26cd472,U2,183.03,PVR Cinemas,entertainment,"London, UK",2026-02-27T04:47:29
+7561fdd2-8ed0-40fe-b095-ffaaf6c56c06,U3,311.58,Netflix,entertainment,"Paris, FR",2026-02-27T04:47:32
+722d1c68-8543-42ff-a5c8-3cbb83742f1f,U1,3297.0,MakeMyTrip,travel,"Los Angeles, CA",2026-02-27T04:47:35
+b6be4b94-d11a-4797-808c-2312ebccc608,U3,493.06,Uber,travel,"London, UK",2026-02-27T04:47:38
+5f1f16df-2f59-42d9-8eed-374f87c590e5,U3,636.83,PVR Cinemas,entertainment,"Tokyo, JP",2026-02-27T04:47:41
+4090d31d-6b14-428c-8d08-3ab08d25f787,U3,416.3,PVR Cinemas,entertainment,"Tokyo, JP",2026-02-27T04:47:44
+fbbb34df-8323-433e-900d-083de6c81c2d,U3,450.45,MakeMyTrip,travel,"Tokyo, JP",2026-02-27T04:47:47
+5bff06f0-13ab-4426-8bee-714eb42e9d6b,U2,788.29,Netflix,entertainment,"Los Angeles, CA",2026-02-27T04:47:50
+588994c4-cef7-4fd6-a52b-6d873422130b,U1,756.1,Nike,shopping,"London, UK",2026-02-27T04:47:53
+516b6319-8587-4655-a144-841b30b17832,U2,525.11,PVR Cinemas,entertainment,"New York, NY",2026-02-27T04:47:56
+129d9b22-cab1-452e-ae46-e8c96e088fdd,U2,433.85,PVR Cinemas,entertainment,"Paris, FR",2026-02-27T04:47:59
+f22c21b1-4bb8-4f44-ac86-b438095c9c10,U2,596.67,MakeMyTrip,travel,"New York, NY",2026-02-27T04:48:02
+9044ed61-e057-47a2-9ef1-5a56c4fb2519,U3,149.49,PVR Cinemas,entertainment,"London, UK",2026-02-27T04:48:05
+82a9acdd-18b0-41a1-bdc4-19f3e5b4a0c6,U1,242.31,Nike,shopping,"London, UK",2026-02-27T04:48:08
+15aaee6d-53df-4677-816a-3aa7a3287b62,U2,18678.16,Big Basket,groceries,"Tokyo, JP",2026-02-27T04:48:11
+41355ad7-4927-4792-90f8-2ae8955afbf3,U2,295.53,Electricity Board,utilities,"New York, NY",2026-02-27T04:48:14
+54dd3098-7945-489b-8d7e-bf148998146b,U2,93.68,Airtel,utilities,"Tokyo, JP",2026-02-27T04:48:17
+f0637800-6552-47e4-9487-4a2cc3e1c134,U3,298.71,PVR Cinemas,entertainment,"Los Angeles, CA",2026-02-27T04:48:21
+569c51b3-4e5b-4d4a-a26d-92322a6074db,U3,244.47,Airtel,utilities,"London, UK",2026-02-27T04:48:24
+d15b49c0-c13b-498d-8d85-91f6b3726bdf,U1,4285.87,Amazon,shopping,"London, UK",2026-02-27T04:48:27
+c80f2a30-3ab2-4f92-bd78-515cd802cdd2,U1,171.3,Amazon,shopping,"London, UK",2026-02-27T04:48:30
+60443d34-25c8-4e02-ab59-09753d895325,U1,302.63,Nike,shopping,"Los Angeles, CA",2026-02-27T04:48:33
+7327efa4-6b0c-470b-aec3-ce6a62d8c8c8,U1,758.54,MakeMyTrip,travel,"Los Angeles, CA",2026-02-27T04:48:36
+a0223382-29f6-4388-8f2a-e8107d4c440b,U3,14197.59,Electricity Board,utilities,"Tokyo, JP",2026-02-27T04:48:39
+ac622454-c48a-4b5a-b45a-2adf8404c5c7,U3,13.87,MakeMyTrip,travel,"London, UK",2026-02-27T04:48:42
+e88f5b2e-7b2b-4a88-8779-94831595f50b,U2,752.52,Electricity Board,utilities,"Paris, FR",2026-02-27T04:48:45
+2bb321f2-79a7-47ed-be27-e94559df53d8,U2,367.61,Binance,crypto,"London, UK",2026-02-27T04:48:48
+d3cc8942-5da7-466e-9006-349e6e74d399,U3,386.07,Binance,crypto,"Los Angeles, CA",2026-02-27T04:48:51
+bcd98ae1-8bd4-4be0-a3cd-47021a83ab21,U2,724.93,Electricity Board,utilities,"London, UK",2026-02-27T04:48:54
+eda27022-4482-438c-adf5-4989ae01967e,U1,265.2,Nike,shopping,"New York, NY",2026-02-27T04:48:57
+d467727c-a25b-4100-ad24-4d1d24778a58,U2,15034.02,Big Basket,groceries,"New York, NY",2026-02-27T04:49:00
+18045f9a-6057-413c-ab87-1de8cb0a1efe,U3,139.15,PVR Cinemas,entertainment,"Tokyo, JP",2026-02-27T04:49:03
+99a5bf3f-e2ae-41e6-9ce4-7a3a0091d266,U2,716.78,Uber,travel,"London, UK",2026-02-27T04:49:06
+d6c32ef6-6ec0-4fd9-af74-c13547713438,U1,166.75,Netflix,entertainment,"Los Angeles, CA",2026-02-27T04:49:09
+a7ee0922-0bdc-4e6d-b771-fd5cc31b17a7,U2,662.93,Binance,crypto,"New York, NY",2026-02-27T04:49:12
+48681a39-dd5c-4740-b7a1-86330c33e97c,U2,64.6,Netflix,entertainment,"London, UK",2026-02-27T04:49:16
+86c23771-42f2-4da6-8ac0-2ce4b3034a70,U3,340.59,Big Basket,groceries,"London, UK",2026-02-27T04:49:19
+0e05ae69-8827-4cc5-8971-9caa38927a40,U1,370.3,Binance,crypto,"Los Angeles, CA",2026-02-27T04:49:22
+a5b44016-24c1-4567-9123-9a793f517aa6,U2,525.88,Netflix,entertainment,"Tokyo, JP",2026-02-27T04:49:25

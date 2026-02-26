@@ -1,48 +1,79 @@
-# 🛡️ FinGuard AI - Real-Time Fraud Detection
+FinGuard AI
+Real-Time Fraud Prevention System using Pathway
 
-FinGuard AI is an enterprise-grade fraud detection system built on the **Pathway Streaming Framework**. It monitors transaction streams in real-time, applying adaptive risk scores and biometric security gates.
+Project Overview
+FinGuard AI is a real-time fraud detection system that checks transactions before money leaves the user’s account.
+Many traditional systems detect fraud only after the money is sent. Our system analyzes every transaction instantly and decides whether to allow, verify, or block it based on risk level.
+We built this project using the Pathway framework to handle streaming transaction data and update risk scores automatically when new data arrives.
 
-## 🏆 Hackathon Compliance (Pathway Framework)
-This project is a **Real-Time Streaming Application**. It does NOT use polling, manual loops, or static data processing for its risk engine.
+What Problem We Are Solving
+Fraud today happens silently.
+Sometimes money is transferred in small amounts multiple times.
+Sometimes fraud happens very fast within a few minutes.
+Sometimes systems only show “Suspicious” without clear explanation.
 
-### Core Pathway Features:
-- **`mode="streaming"`**: Live ingestion of transaction data.
-- **Stateful User Profiling**: Real-time aggregation of spending behavior.
-- **Sliding Window Velocity**: 5-minute rolling counts to detect rapid-fire attacks.
-- **Unified Risk UDF**: Fraud detection logic is embedded directly into the Pathway transformation graph.
+Our system focuses on:
+Detecting fraud before money transfer
+Identifying split transactions
+Monitoring unusual behavior
+Providing clear explanation for every flagged transaction
 
-## 🚀 Quick Start (Submission Guide)
+How Our System Works
+A new transaction comes in.
+Pathway streaming engine processes the data automatically.
+Risk score is calculated based on behavior patterns.
 
-### 🚨 PREREQUISITES
-Pathway requires **Linux (Ubuntu/Debian) or WSL/Docker on Windows**. It will NOT run natively on Windows (Python will install a stub/fake package).
+Based on risk level:
+Low → Allow
+Medium → Extra confirmation
+High → Biometric verification or block
+AI explanation shows why the transaction was flagged.
 
-### Installation
-```bash
+Why We Used Pathway
+We used the real Pathway library in pathway_pipeline.py.
+import pathway as pw
+pw.Schema
+pw.io.csv.read(mode="streaming")
+pw.run()
+Whenever new transaction data is added, Pathway automatically updates the risk score. There are no manual loops used for refreshing.
+This follows the hackathon requirement for real-time streaming.
+
+Technologies Used
+Backend:
+Python
+FastAPI
+Pathway
+Uvicorn
+
+Frontend:
+Streamlit
+HTML / CSS
+
+AI:
+LLM
+RAG-based explainability
+Behavioral risk engine
+
+Key Features
+Pre-Transaction Risk Detection
+Behavior & Velocity Monitoring
+Split Fraud Detection
+Progressive Risk Escalation
+Biometric Trigger for High Risk
+Explainable AI
+
+How to Run the Project
+Install dependencies:
 pip install -r requirements.txt
-```
+Run Pathway pipeline:
+python pathway_pipeline.py
 
-### Execution (Production Mode)
-Run these commands in separate terminals:
+Start backend:
+uvicorn api_main:app --reload
+Run frontend:
+streamlit run streamlit_app.py
 
-1. **Pathway Engine**: Processes streaming data.
-   ```bash
-   python pathway_pipeline.py
-   ```
-2. **Backend API**: Serves risk results.
-   ```bash
-   uvicorn api_main:app --host 0.0.0.0 --port 8000
-   ```
-3. **Frontend Dashboard**: Visualizes the risk feed.
-   ```bash
-   streamlit run streamlit_app.py
-   ```
-
-## 📍 Compliance Reference (In `pathway_pipeline.py`)
-- **Streaming Setup**: Line 42 (`mode="streaming"`)
-- **Stateful Joins**: Line 79
-- **Windowed Analytics**: Line 150 (`pw.windows.sliding`)
-- **Framework Launch**: Line 193 (`pw.run()`)
-
----
-### 🛠️ Local Testing on Windows
-If you are evaluating this project on a Windows machine without WSL, we have provided `windows_compliance_mock.py`. This mimics the Pathway interface for UI/UX testing only. For the **True Streaming Evaluation**, please refer to `pathway_pipeline.py`.
+Demo Video
+ https://drive.google.com/file/d/1v5SjrP0Kh4AMkRK9bspK-vfCRxFE6hro/view?usp=drivesdk
+GitHub Repository
+  https://github.com/ArchanaN2125/FinGuard-AI
